@@ -22,7 +22,7 @@ body{
 
 .sidebar-wrapper {
     border: 1px solid blue;
-    min-width: 450px;
+    min-width: 600px;
 
     display: flex;
     flex-direction: column;
@@ -34,12 +34,24 @@ body{
 }
 
 .form-wrapper {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    width: 60%;
+    gap: 15px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 /* OTHER */
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row input {
+  height: 20px;
+}
 
 .text-section{
     color: white;
@@ -55,6 +67,7 @@ body{
 
 .mainform-section{
     background-color: white;
+    margin-top: 50px;
     padding: 10px;
     padding-left: 20px;
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
@@ -75,6 +88,8 @@ body{
 
 #info-p {
     margin-left: 20px;
+    font-size: 20px;
+    font-family:sans-serif;
 }
 
 /* Buttons */

@@ -16,27 +16,37 @@
             <p id="source-p">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
         </div>
         <div class="main-wrapper">
-            <p id="info-p">MAIN WRAPPER THIS IS WHERE THE INFO WILL SHOW</p>
+            <p id="info-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <div class="form-section">
                 <div class="mainform-section">
                     <h1>Sign up here!</h1>
+                    <p>* required fields</p>
                     <form action="" method="get">
                         <div class="form-wrapper">
                             <div class="form-row">
-                                <label for="first-name">First Name</label>
-                                <input id="first-name" name="first-name" type="text">
+                                <label for="first-name">First Name *</label>
+                                <input id="first-name" name="first-name" type="text" required>
                             </div>
                             <div class="form-row">
                                 <label for="last-name">Last Name</label>
                                 <input id="last-name" name="last-name" type="text">
                             </div>
                             <div class="form-row">
-                                <label for="email">Email</label>
-                                <input type="email" name="email" id="email">
+                                <label for="email">Email *</label>
+                                <input type="email" name="email" id="email" required>
                             </div>
-                            <div class="form-row"></div>
-                            <div class="form-row"></div>
-                            <div class="form-row"></div>
+                            <div class="form-row">
+                                <label for="phone">Phone Number *</label>
+                                <input type="number" name="phone" id="phone" required>
+                            </div>
+                            <div class="form-row">
+                                <label for="password">Password *</label>
+                                <input type="password" name="password" id="password" required>
+                            </div>
+                            <div class="form-row">
+                                <label for="password-conf">Confirm Password *</label>
+                                <input type="password" name="password-conf" id="password-conf" required>
+                            </div>
                         </div>
                 </div>
                 <div class="footerform-section">
